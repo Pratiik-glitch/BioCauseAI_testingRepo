@@ -1,0 +1,8 @@
+streamlit
+pandas
+spacy
+networkx
+pyvis
+biopython
+google-genai
+python-dotenv
