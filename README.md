@@ -1,6 +1,9 @@
 
 # BioCause AI
+
 ### A Decoupled GraphRAG Architecture for Automated Literature-Based Discovery and Causal Hypothesis Generation
+
+**[📄 Read Research Paper](https://drive.google.com/file/d/1NJ6f-V_un_iD99zXIX8IBY9Nh4wcge7v/view?usp=drivesdk)** · **[💻 GitHub Repository](https://github.com/KalkiDh/BioCauseAI)**
 
 BioCause AI is a research-oriented, full-stack biomedical literature discovery platform that explores potential connections across scientific research papers. It combines PubMed literature retrieval, biomedical Named Entity Recognition (NER), knowledge graph construction, and graph-grounded Large Language Model (LLM) reasoning to generate interpretable causal hypotheses for further investigation.
 
@@ -37,7 +40,7 @@ The application follows a decoupled architecture with a **React frontend** and a
 ## Key Features
 
 - **PubMed Integration:** Retrieves biomedical literature and abstracts using NCBI E-utilities.
-- **Biomedical NER:** Uses SciSpacy-based natural language processing to identify biomedical entities.
+- **Biomedical Named Entity Recognition:** Uses SciSpacy-based natural language processing to identify biomedical entities.
 - **Knowledge Graph Construction:** Represents entities as nodes and their co-occurrences as weighted edges using NetworkX.
 - **Graph Filtering:** Filters lower-weight connections to reduce irrelevant relationships.
 - **Graph-Grounded LLM Reasoning:** Uses the Google Gemini API to help generate hypotheses from selected graph relationships and literature context.
@@ -246,6 +249,8 @@ BioCauseAI/
 **Conference:** ComNet 2026 — International Conference on Communication Systems and Networks
 
 **Presentation Date:** 17 September 2026
+
+**Research Paper:** [Read the full paper on Google Drive](https://drive.google.com/file/d/1NJ6f-V_un_iD99zXIX8IBY9Nh4wcge7v/view?usp=drivesdk)
 
 The paper was presented at ComNet 2026, held from 16–18 September 2026. Refer to the official proceedings or publication record for confirmed publication and indexing details.
 
